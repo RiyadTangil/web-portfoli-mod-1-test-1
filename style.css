@@ -6,8 +6,12 @@
 
 section{
     height: 600px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
+    overflow: hidden;
     
+}
+.text-center{
+    text-align: center;
 }
 .half-width{
     width: 40%;
@@ -76,3 +80,99 @@ footer p{
     text-align: center;
     font-size: 12px;
 }
+.latestProject{
+    /* width: 30%;
+    float: left; */
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    height: 600px;
+ 
+}
+.project-div img {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; 
+    align-items: center;
+    width: 90%;  
+}
+.project-div{
+    margin: 0 20px;
+}
+.gym-section{
+    height: 800px;
+}
+.gym-section h1{
+    text-align: center;
+    color: rebeccapurple;
+    padding: 100px 0;
+}
+.project-div h3 ,p{
+    padding: 10px 10px;
+
+}
+
+.clint-section{
+    background-color: #161765;
+    padding: 80px 0 300px 0;
+    margin-bottom: 100px;
+
+}
+.clint-section h1{
+    text-align: center;
+    color: wheat;
+}
+.clint-review{
+    margin: 0 20px;
+   height: 400px;
+   width: 450px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px #05071d;
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+}
+.clint-review h1{
+    color: #8E5FFF;
+    font-size: 70px;
+}
+.clint-review h3{
+    color: wheat;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+#client{
+    border: 5px solid;
+    border-image: linear-gradient(150deg,blue, cyan );
+    border-image-slice: 1;;
+}
+#order{
+    border: 5px solid;
+    border-image: linear-gradient(150deg,red,lightSalmon );
+    border-image-slice: 1;;
+}
+#experience{
+    border: 5px solid cyan;
+}
+.chatField{
+    background-image:url(images/Group_33094_1.png);
+   border-radius: 20px;
+    height:300px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+align-items: center;
+justify-content:space-around;
+color: wheat;
+  
+}
+.logo {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
